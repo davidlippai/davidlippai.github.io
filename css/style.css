@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(#44A08D,#093637);
+  color: white;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+h1 {
+  text-align: center;
+  font-variant: small-caps;
+  letter-spacing: 0.5rem;
+  text-shadow: 2px 3px 0.5rem rgb(253, 253, 253);
+}
+
+/*NAV*/
+
+nav {
+  background-color: white;
+}
+
+.container-fluid a {
+  color: #093637;
+  text-decoration: none;
+  font-variant: small-caps;
+  letter-spacing: 0.25rem;
+  font-size: 1.25rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+.active {
+  font-size: 1rem;
+}
+
+/*NAV*/
+
+/*SECTION*/
+section {
+ margin: 2rem auto;
+ max-width: 960px;
+}
+
+img {
+  width: 100vw;
+  filter: grayscale(100%);
+  transition: all ease-in-out 0.35s;
+  max-width: 660px;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 0.5rem;
+}
+
+img:hover {
+  filter: grayscale(0%);
+  transition: all ease-in-out 0.35s;
+}
+
+h2 {
+  text-align: center;
+  padding: 2rem;
+}
+
+p {
+  line-height: 2rem;
+  margin: 0 0.5rem;
+}
+
+article {
+  min-height: 25vh;
+}
+
+/*FOOTER*/
+
+footer {
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  color: #093637;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+footer a {
+  color: #093637;
+  text-decoration: none;
+  font-variant: small-caps;
+  letter-spacing: 0.15rem;
+}
